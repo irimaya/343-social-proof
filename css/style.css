@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  color: #602c64;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 1rem;
+  margin: 5px 0;
+  line-height: 1.7em;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.txt-large {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.txt-small {
+  font-size: 12px;
+}
+
+.txt-light {
+  color: #d265a6;
+}
+
+.mainheader {
+  padding: 60px 0;
+  background: url("/images/bk-header.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.social-proof {
+  padding: 20px 0;
+  background: url("/images/bk-social-proof.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.social-proof .flex {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.social-proof .flex-box {
+  background: #602c64;
+  color: #fff;
+  flex: 1;
+  padding: 30px;
+  border-radius: 10px;
+}
+.social-proof .flex-box img {
+  width: 60px;
+  border-radius: 50%;
+}
+.social-proof .flex-box-name {
+  font-weight: 400;
+}
+.social-proof .flex-box .txt-color {
+  color: #602c64;
+  padding-top: 40px;
+}
+
+.mainfooter {
+  text-align: center;
+  padding: 30px;
+}
+
+@media (max-width: 768px) {
+  .social-proof .flex {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
