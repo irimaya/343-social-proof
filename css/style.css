@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html,
 body {
-  font-family: "Roboto", sans-serif;
-  color: #602c64;
+  font-family: "Robot", sans-serif;
 }
 
 h1 {
@@ -74,10 +73,6 @@ p {
 }
 .social-proof .flex-box-name {
   font-weight: 400;
-}
-.social-proof .flex-box .txt-color {
-  color: #602c64;
-  padding-top: 40px;
 }
 
 .mainfooter {

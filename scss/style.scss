@@ -2,20 +2,19 @@
 
 $main-color: #602c64;
 $light-color: #d265a6;
-$font-stack: 'Roboto', sans-serif;
+$font-stack: 'Robot', sans-serif;
 
 // Reset
 * {
-	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 // Main Styling
 html,
 body {
 	font-family: $font-stack;
-	color: $main-color;
 }
 
 h1 {
@@ -23,10 +22,6 @@ h1 {
 	font-weight: 400;
 	margin-bottom: 30px;
 }
-
-// img {
-// 	max-width: 100%;
-// }
 
 p {
 	font-size: 1rem;
@@ -54,7 +49,7 @@ p {
 	color: $light-color;
 }
 
-// MainHeader
+// Mainheader
 .mainheader {
 	padding: 60px 0;
 	background: url('/images/bk-header.png');
@@ -86,13 +81,9 @@ p {
 			&-name {
 				font-weight: 400;
 			}
-			.txt-color {
-				color: $main-color;
-				padding-top: 40px;
-			}
-		} //.flex-box end
-	} //.flex end
-} //.devjobs end
+		} //End .flex-box
+	} //End .flex
+} //End .social-proof
 
 // Footer
 .mainfooter {
@@ -104,6 +95,6 @@ p {
 	.social-proof {
 		.flex {
 			flex-direction: column;
-		} //.flex end
-	} //.devjobs end
+		}
+	}
 }
